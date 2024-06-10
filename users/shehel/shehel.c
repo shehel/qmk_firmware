@@ -55,13 +55,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [NAV] = LAYOUT_shehel(
         KC_TAB,  SW_WIN,  TABL,    TABR,    KC_VOLU, QK_BOOT, KC_HOME,    KC_UP,   KC_END,     KC_DEL,
-        OS_SHFT, OS_CTRL, OS_ALT,  OS_CMD,  KC_VOLD, KC_CAPS, KC_LEFT, KC_DOWN, KC_RGHT, KC_BSPC,
+        OS_SHFT, OS_CTRL, OS_ALT,  OS_CMD,  KC_VOLD, KC_NO, KC_LEFT, KC_DOWN, KC_RGHT, KC_BSPC,
         SPCL,    SPC_R,   BACK,    FWD,     KC_MPLY, XXXXXXX, KC_PGDN, KC_PGUP, SW_LANG, KC_ENT,
                                    _______, _______, _______, _______
     ),
 
     [NUM] = LAYOUT_shehel(
-        KC_7,    KC_5,    KC_3,    KC_1,    KC_9,    KC_8,    KC_0,    KC_2,    KC_4,    KC_6,
+        KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,
         OS_SHFT, OS_CTRL, OS_ALT,  OS_CMD,  KC_F11,  KC_F10,  OS_CMD,  OS_ALT,  OS_CTRL, OS_SHFT,
         KC_F7,   KC_F5,   KC_F3,   KC_F1,   KC_F9,   KC_F8,   KC_F12,  KC_F2,   KC_F4,   KC_F6,
                                    _______, _______, _______, _______
